@@ -1,0 +1,67 @@
+
+{"adventure":{
+  "Kingdom": "Frost Rock"
+  ,"NPCNames":[
+    "Justina"
+    ,"Meena"
+    ,"Freya"
+    ,"Diana"
+  ]
+  , "NPCResponses": [
+    "It's a lovely day, would be nice to go to the market."
+    , "I hear there are monsters afoot!"
+    , "The castle in the distance is haunted, beware of evil spells."
+    , "There are gray clouds looming in the horizon."
+  ]
+  , "Enemies":[
+     {"Name":"Ogre", "Article":"an"}
+    , {"Name":"Giant", "Article":"a"}
+    , {"Name":"Serpent", "Article":"a"}
+    , {"Name":"Wolf", "Article":"a"}
+  ]
+  , "Trials": [
+      {
+        "Trial": "You come across a raging river. Type y to attempt to cross"
+        , "Success": "It was close, but you were able to make it across the river before being swept away!"
+        , "Failure":"You were unable to make it across to the river and got swept over a waterfall. You landed in a gnome village and decided to stay, abandoning your quest."
+        , "Magic":2
+        , "Continue": 0
+      }
+      ,{
+        "Trial": "There is a large treasure chest in your path.\nType y break the lock to open it. "
+          , "Success": "The chest is full of the most delicious food! You feast for hours before continuing on your journey."
+          , "Failure":"The chest is full of dirty socks! When you open it the smell is so gross that you almost throw up!"
+          , "Magic":2
+          , "Continue": 1
+       }
+      ,{
+        "Trial": "You are walking through the forest when you think you hear the whining of a horse.\nType y to investigate."
+        , "Success": "The horse is really a beautiful unicorn! She is very friendly and lets you climb upon her back for a ride. She is faster than any horse could ever be and you feel like you are flying!"
+        , "Failure":"The horse is a wild stallion that almost kicks you with her hind legs. You narrowly escape to continue on your journey."
+        , "Magic":2
+        , "Continue": 1
+      }
+  ]
+  ,"StartingPlace": "You are in your bedroom when you hear a loud noise. You look up to see a door in the wall of your closet that you have never seen before.\nPress y then to travel through the door."
+  , "Destinations":[
+    {
+      "Direction": "north"
+      , "Place": "a small village"
+      , "Chosen": "You move to the north, walking in the sunshine toward the village."
+      , "Final": "the small village"
+    }
+    ,{
+       "Direction": "east"
+       , "Place": "a charming castle"
+       , "Chosen": "You walk to the castle which lies to the east of your home."
+       , "Final": "the charming castle"
+    }
+    ,{
+      "Direction": "west"
+      , "Place": "a field of wild flowers"
+      , "Chosen": "You walk to the field of wild flowers, pausing for a moment to take in the beauty."
+      , "Final": "the field of wild flowers"
+    }
+  ]
+  }
+}
