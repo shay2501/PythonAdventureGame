@@ -1,4 +1,5 @@
 __author__ = 'Les Pounder'
+__author__ = 'Shannon Whalen'
 
 #The lines below imagicptsort modules of code into our game, in particular these imagicptsort time functions to allow us to pause and stop the game, and random provides a method of choosing random numbers or characters.
 from time import *
